@@ -7,7 +7,7 @@ from config import TOKEN, PORT
 
 
 def start(update, context):
-    context.bot.send_message(chat_id=update.effective_chat.id, text="Hey, Bot Hậu nhen :)) ")
+    context.bot.send_message(chat_id=update.effective_chat.id, text="Hey, Bot Hậu đây :)) ")
 def unknown(update, context):
     context.bot.send_message(chat_id=update.effective_chat.id, text="Ý bạn là gì vậy , mình hông hiểu , bạn đi ra đi :))")
 
